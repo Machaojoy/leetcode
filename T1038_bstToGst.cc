@@ -42,7 +42,7 @@ private:
         
         root->val += sum;
         sum = root->val;
-        printf("%d,", root->val);
+        //printf("%d,", root->val);
 
         if(root->left)
             dfs(root->left);
